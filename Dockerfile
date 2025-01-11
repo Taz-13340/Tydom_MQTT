@@ -9,7 +9,7 @@ RUN apk add --no-cache gcc musl-dev linux-headers
 WORKDIR /app
 
 # Copy requirements first to leverage Docker cache
-COPY requirements.txt .
+COPY /app/requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy app
