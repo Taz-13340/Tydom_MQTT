@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 
 # Copy app
 COPY /app .
-COPY /doc .
+COPY /docs .
 
 # Main command
 CMD [ "python", "-u", "main.py" ]
