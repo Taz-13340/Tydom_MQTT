@@ -1,4 +1,4 @@
-FROM python:3.11-alpine3.17
+FROM python:3.9-alpine
 
 LABEL org.opencontainers.image.description="Deltadore Tydom to MQTT Bridge"
 
@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.description="Deltadore Tydom to MQTT Bridge"
 WORKDIR /app
 
 # Copy app
-COPY /app .
+COPY . .
 
 # Install dependencies
 RUN pip3 install -r requirements.txt
