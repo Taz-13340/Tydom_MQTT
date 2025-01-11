@@ -13,7 +13,8 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy app
-COPY . .
+COPY /app .
+COPY /doc .
 
 # Main command
-CMD [ "python", "-u", "/app/main.py" ]
+CMD [ "python", "-u", "main.py" ]
