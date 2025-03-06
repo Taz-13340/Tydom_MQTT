@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.12-alpine
 
 LABEL org.opencontainers.image.description="Deltadore Tydom to MQTT Bridge"
 
