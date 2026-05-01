@@ -1,9 +1,9 @@
 ---
 
 ########## GENERAL SETTINGS ######################################################################################################
-name: tydom2mqtt-GARAGE
+name: tydom2mqtt
 version: 0.0.1
-slug: tydom2mqtt-GARAGE
+slug: tydom2mqtt
 description: Deltadore Tydom to MQTT Bridge
 arch:
   - armhf
